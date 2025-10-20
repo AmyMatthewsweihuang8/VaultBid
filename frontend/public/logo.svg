@@ -1,0 +1,40 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Gavel handle -->
+  <rect x="4" y="28" width="20" height="4" rx="2" fill="url(#gradient1)" transform="rotate(-45 4 28)"/>
+
+  <!-- Gavel head -->
+  <rect x="24" y="8" width="12" height="8" rx="2" fill="url(#gradient2)" transform="rotate(-45 24 8)"/>
+
+  <!-- Electric spark effect -->
+  <path d="M32 18 L28 24 L32 24 L28 30" stroke="url(#sparkGradient)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Auction block/platform -->
+  <rect x="28" y="34" width="16" height="3" rx="1.5" fill="url(#gradient3)"/>
+  <rect x="30" y="37" width="12" height="2" rx="1" fill="url(#gradient3)" opacity="0.7"/>
+
+  <!-- Shield for privacy -->
+  <path d="M38 12 L42 12 L42 18 C42 21 40 23 38 24 C36 23 34 21 34 18 L34 12 Z" fill="url(#shieldGradient)" opacity="0.8"/>
+
+  <defs>
+    <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#06b6d4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="gradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#06b6d4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="gradient3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#8b5cf6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#06b6d4;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="sparkGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#fbbf24;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f59e0b;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="shieldGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#10b981;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#059669;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+</svg>

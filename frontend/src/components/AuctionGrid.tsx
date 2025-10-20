@@ -5,40 +5,44 @@ const AuctionGrid = () => {
   // Listing #8 is still being created, so using static for now
   const listings = [
     {
-      title: "Solar Energy Credits",
-      image: "https://images.unsplash.com/photo-1509391366763-d80825a0a3c6?w=800&auto=format&fit=crop",
+      title: "Cosmic Genesis #001",
+      image: "https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?w=800&auto=format&fit=crop",
       currentBid: "0.25",
-      endTime: "89d 23h",
+      endTime: "2d 14h",
       bidders: 0,
       isActive: true,
       listingId: 5,
+      description: "First edition from the Cosmic Genesis collection"
     },
     {
-      title: "Wind Power Futures",
-      image: "https://images.unsplash.com/photo-1466611653911-95081537e5b7?w=800&auto=format&fit=crop",
+      title: "Digital Dreamscape",
+      image: "https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?w=800&auto=format&fit=crop",
       currentBid: "0.45",
-      endTime: "89d 23h",
+      endTime: "3d 8h",
       bidders: 0,
       isActive: true,
       listingId: 6,
+      description: "Rare generative art piece"
     },
     {
-      title: "Hydro Energy Package",
-      image: "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=800&auto=format&fit=crop",
+      title: "Neon Samurai",
+      image: "https://images.unsplash.com/photo-1618005198919-d3d4b5a92ead?w=800&auto=format&fit=crop",
       currentBid: "0.68",
-      endTime: "89d 23h",
+      endTime: "5d 2h",
       bidders: 0,
       isActive: true,
       listingId: 7,
+      description: "Exclusive cyberpunk collection"
     },
     {
-      title: "Green Energy Bundle",
-      image: "https://images.unsplash.com/photo-1497440001374-f26997328c1b?w=800&auto=format&fit=crop",
+      title: "Abstract Nexus",
+      image: "https://images.unsplash.com/photo-1635322966219-b75ed372eb01?w=800&auto=format&fit=crop",
       currentBid: "0.92",
-      endTime: "89d 23h",
+      endTime: "6d 18h",
       bidders: 0,
       isActive: true,
       listingId: 8,
+      description: "Limited edition 1/1 artwork"
     },
   ];
 
@@ -47,10 +51,10 @@ const AuctionGrid = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            <span className="text-gradient">Active Energy Listings</span>
+            <span className="text-gradient">Live Auctions</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            All offers are encrypted using Zama's FHE technology. Top bidder revealed when listing closes.
+            All bids are encrypted using Zama's FHE technology. Winning bid revealed only when auction closes.
           </p>
         </div>
 
